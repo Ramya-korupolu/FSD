@@ -1,0 +1,225 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background: black;
+            /* color: white; */
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        #firstSection {
+            margin: 0 0;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            /* background-color: rgb(19, 38, 98); */
+            background-color: black;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            list-style: none;
+            margin: 30px 30px;
+        }
+        
+        nav ul li a {
+            color: lavender;
+            text-decoration: none;
+        }
+        
+        nav ul li a:hover {
+            color: rgb(170, 107, 228);
+            font-size: 1.01rem;
+        }
+        
+        .Intro {
+            background-image: url("portfolioBG.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+        }
+        
+        #firstSection p {
+            padding-left: 400px;
+            padding-top: 200px;
+            width: 30%;
+            font-size: 25px;
+        }
+        
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+        
+        .buttons {
+            margin-top: 15px;
+            margin-left: 420px;
+        }
+        
+        .btn {
+            background-color: rgb(39, 38, 38);
+            color: white;
+            padding: 5px;
+            padding-left: 12px;
+            padding-right: 12px;
+            border: 1px solid white;
+            border-radius: 5px;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        
+        .btn:hover {
+            color: rgb(170, 107, 228);
+        }
+        
+        #element {
+            color: rgb(170, 107, 228);
+        }
+        
+        .sectionHeading {
+            max-width: 80vw;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        hr {
+            border: 0;
+            height: 2px;
+            background-color: lavender;
+            margin-top: 20px;
+        }
+        
+        h1 {
+            font-size: 20px;
+        }
+        
+        #secondSection p {
+            /* margin-left: 150px;
+            margin-top: 40px;
+            margin-bottom: 100px;
+            margin-right: 100px; */
+            margin: 0 150px 100px 180px;
+            font-size: 20px;
+        }
+        
+        #secondSection img {
+            margin: 50px 500px;
+            height: 130px;
+            width: 150px;
+            border-radius: 8px;
+        }
+        
+        #thirdSection {
+            margin-bottom: 100px;
+        }
+        
+        #thirdSection h2 {
+            color: rgb(170, 107, 228);
+            margin-top: 30px;
+            font-size: 17px;
+        }
+        
+        .skillsSub {
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 18px;
+        }
+        
+        .items {
+            height: 90px;
+            width: 1px;
+            margin: 30px 50px 50px 50px;
+            padding: 20px;
+        }
+        
+        img {
+            height: 100px;
+            width: 100px;
+            border-radius: 8px;
+        }
+        
+        #fourthSection {
+            margin-bottom: 200px;
+        }
+        
+        .project-flex {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .vertical {
+            background-color: lavender;
+            width: 1px;
+            margin: 0 150px;
+        }
+        
+        .flex-height1 {
+            height: 110px;
+        }
+        
+        .flex-height2 {
+            height: 260px;
+        }
+        
+        .project1 {
+            font-size: 15px;
+            margin-left: 10px;
+            margin-top: 85px;
+        }
+        
+        .project2 {
+            font-size: 15px;
+            margin-left: 10px;
+            margin-top: 235px;
+        }
+        
+        #fourthSection img {
+            height: 100px;
+            width: 150px;
+            border-radius: 8px;
+        }
+        
+        .link {
+            color: rgb(170, 107, 228);
+            text-decoration: none;
+        }
+        
+        .link:hover {
+            color: lavender;
+        }
+        
+        .footer {
+            display: flex;
+            padding: 50px 100px;
+            justify-content: space-evenly;
+        }
+        
+        .footer ul {
+            list-style: none;
+        }
+        
+        .footer>div {
+            width: 100px;
+        }
+        
+        #lastSection ul li a {
+            color: rgb(170, 107, 228);
+            text-decoration: none;
+        }
+        
+        #lastSection ul li a:hover {
+            color: lavender;
+            font-size: 1.01rem;
+        }
